@@ -1,0 +1,577 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+
++ Shana
+
+menu = Shana Network
+title = Shana Network
+#parents = owner:/Test/James location:/
+
+++ Sydney
+
+menu = Sydney
+title = Sydney
+host = syd-netgw.syd01.shana.sg
+#alerts = someloss
+
+++ Singapore02
+menu = Singapore 02
+title = Singapore 02
+host = server4.sin02.shana.sg
+
++ Upstreams
+menu = Upstreams
+title = Upstreams
+
+++ SGGSAS24482Upstream
+menu = SG.GS
+title = SG.GS (AS24482)
+host = 103.14.246.176
+
+++ SingtelAS7473Upstream
+menu = Singtel
+title = Singtel (AS7473)
+host = 203.208.190.225
+
+++ AlphaAS132337
+menu = Alpha Networks Solution
+title = Alpha Networks Solution (AS132337)
+host = 103.148.239.238
+
++ Singapore
+menu = Singapore
+title = Singapore
+
+++ SingtelAS9506
+
+menu = Singtel Fibre
+title = Singtel Fibre
+host = 202.166.123.134
+
+++ SingtelAS95061
+
+menu = Singtel Fibre 2
+title = Singtel Fibre 2
+host = 116.14.242.1
+
+++ StarHubAS10091
+
+menu = StarHub AS10091
+title = StarHub AS10091
+host = 218.186.2.166
+
+++ StarHubAS9874
+
+menu = StarHub AS9874
+title = StarHub AS9874
+host = 203.116.22.141
+
+++ StarHubAS4657
+menu = StarHub Internet Exchange AS4657
+title = StarHub Internet Exchange AS4657
+host = 203.116.1.78
+
+++ M1NetAS17547
+menu = M1 Net
+title = M1 Net
+host = 210.193.2.36
+
+++ MyRepublicAS56300
+
+menu = MyRepublic
+title = MyRepublic
+host = 103.241.63.13
+
+++ ViewqwestAS18106
+menu = Viewqwest
+title = Viewqwest
+host = 202.73.37.2
+
+++ SupernetAS4844
+menu = SuperInternet
+title = SuperInternet
+host = 210.23.25.76
+
+++ NgeeAnnPolyAS9877
+menu = NgeeAnnPoly
+title = NgeeAnnPoly
+host = 153.20.24.95
+
+++ NUSAS7472
+menu = NUS
+title = NUS
+host = 137.132.3.194
+
+++ SMUAS17733
+menu = SMU
+title = SMU
+host = 202.161.43.245
+
++ HongKong
+menu = Hong Kong
+title = Hong Kong
+
+++ HKCTAS9908
+menu = Hong Kong Cable Television
+title = Hong Kong Cable Television
+host = 222.166.240.1
+
+++ HKNTTHKNETAS9293
+menu = NTT-HKNet
+title = NTT-HKNet
+host = 202.67.240.222
+
+++ NetvigatorPCCWAS9925
+menu = PCCW Netvigator
+title = PCCW Netvigator
+host = 203.86.164.6
+
+++ NewWorldAS17444
+menu = New World Telephone
+title = New World Telephone
+host = 59.188.224.129
+
++ Malaysia
+
+menu = Malaysia
+title = Malaysia
+
+++ TMNet
+menu = Malaysia Telecom
+title = Malaysia Telecom
+host = 147.158.255.254
+
+++ CelcomAS10030
+menu = Celcom
+title = Celcom
+host = 203.82.70.5
+
+++ DigiAS4818
+menu = DiGi
+title = DiGi
+host = 115.164.2.18
+
+++ GlobalTransitAS24218
+menu = GlobalTransit
+title = GlobalTransit
+host = 103.3.74.1
+
+++ MaxisAS9534
+menu = Maxis
+title = Maxis
+host = 58.71.136.7
+
+++ TimeAS9930
+menu = TIME
+title = TIME
+host = 203.121.16.120
+
+++ YTLAS45960
+menu = YTL Communications
+title = YTL Communications
+host = 202.56.84.1
+
++ Japan
+menu = Japan
+title = Japan
+
+++ SoftBankAS17676
+menu = SoftBank Japan Yahoo BB
+title = SoftBank Japan Yahoo BB
+host = 143.90.12.74
+
+++ KDDIAS2516
+menu = KDDI
+title = KDDI
+host = 211.5.1.215
+
+++ NTTDocomoAS9605
+menu = NTT DoCoMo
+title = NTT DoCoMo
+host = 49.102.160.2
+
+++ SonyGlobalAS9619
+menu = Sony Global
+title = Sony Global
+host = 211.125.138.150
+
+++ YamaguchiAS18077
+menu = Yamaguchi Cable Vision
+title = Yamaguchi Cable Vision
+host = 122.250.0.3
+
+++ SquareAS23784
+menu = Square Enix Co Ltd
+title = Square Enix Co Ltd
+host = 124.150.157.32
+
++ Australia
+
+menu = Australia
+title = Australia
+
+++ EquinixSY
+menu = Equinix Asia Pacific - Sydney
+title = Equinix Asia Pacific - Sydney
+host = 202.167.227.165
+
+++ TPGAU
+menu = TPG Sydney
+title = TPG Sydney
+host = 203.26.24.6
+
+++ TPGBrisbane
+menu = TPG Brisbane
+title = TPG Brisbane
+host = 120.88.160.1
+
+++ TPGMelbourne
+menu = TPG Melbourne
+title = TPG Melbourne
+host = 203.219.155.8
+
+++ TPGPerth
+menu = TPG Perth
+title = TPG Perth
+host = 203.219.57.195
+
+++ OptusAS4804
+menu = Optus
+title = Optus
+host = 198.142.152.162
+
+++ OptusAS7474
+menu = Singtel Optus
+title = Singtel Optus
+host = 203.13.128.125
+
+++ OptusMelbourne
+menu = Optus Melbourne
+title = Optus Melbourne
+host = 211.31.132.28
+
+++ OptusSydney
+menu = Optus Sydney
+title = Optus Sydney
+host = 211.29.132.139
+
+++ iiNetMelbourne
+menu = iiNet Melbourne
+title = iiNet Melbourne
+host = 203.174.41.2
+
+++ iiNetPerth
+menu = iiNet Perth
+title = iiNet Perth
+host = 150.101.172.222
+
+++ MyRepublicAU
+menu = MyRepublic Australia
+title = MyRepublic Australia
+host = 45.248.197.53
+
++ NewZealand
+menu = New Zealand
+title = New Zealand
+
+++ MyRepublicAS133579
+menu = MyRepublic NZ
+title = MyRepublic NZ
+host = 103.237.40.66
+
+++ SlingshotAS9790
+menu = Slingshot NZ
+title = Slingshot NZ
+host = 202.180.64.10
+
++ Indonesia
+menu = Indonesia
+title = Indonesia
+
+++ IndosatAS4761
+menu = INDOSAT Internet Network Provider
+title = INDOSAT Internet Network Provider
+host = 114.6.59.17
+
+++ LinknetAS9905
+menu = Linknet - FirstMedia
+title = Linknet - FirstMedia
+host = 202.137.3.121
+
+++ MoratelJKTAS23947
+menu = Moratel Jakarta
+title = Moratel Jakarta
+host = 202.43.178.244
+
+++ MyRepublicIDAS63859
+menu = MyRepublic Indonesia
+title = MyRepublic Indonesia
+host = 158.140.187.44
+
+++ NTTIDAS10217
+menu = NTT Indonesia
+title = NTT Indonesia
+host = 202.171.27.9
+
+++ TelkomIDAS7713
+menu = Telkom
+title = Telkom
+host = 110.139.32.1
+
+++ TelinAS17974
+menu = Telin
+title = Telin
+host = 110.139.0.1
+
+++ BaliFiberAS136119
+menu = Balifiber
+title = Balifiber
+host = 103.94.168.14
+
+++ FastnetAS23700
+menu = Fastnet
+title = Fastnet
+host = 202.73.96.74
+
++ China
+menu = China
+title = China
+
+++ UnicomShanghai
+menu = China Unicom Shanghai network
+title = China Unicom Shanghai network
+host = 103.250.192.133
+
+++ UnicomShandong
+menu = China Unicom Shandong province
+title = China Unicom Shandong province
+host = 123.232.8.129
+
+++ UnicomHainan
+menu = China Unicom Hainan province
+title = China Unicom Hainan province
+host = 124.66.8.1
+
+++ UnicomBeijing
+menu = China Unicom Beijing province
+title = China Unicom Beijing province
+host = 219.158.101.158
+
+++ UnicomHeilongjiang
+menu = China Unicom Heilongjiang province
+title = China Unicom Heilongjiang province
+host = 221.208.150.28
+
+++ CMAS58453
+menu = China Mobile
+title = China Mobile
+host = 223.118.2.177
+
+++ CMCCAS9808
+menu = CMCC
+title = CMCC
+host = 120.232.193.202
+
+++ ChinanetAS58563
+menu = CHINANET Hubei
+title = CHINANET Hubei
+host = 203.2.64.1
+
+
++ Thailand
+menu = Thailand
+title = Thailand
+
+++ CATAS131090
+menu = CAT TELECOM Public Company Ltd,CAT
+title = CAT TELECOM Public Company Ltd,CAT
+host = 110.77.237.1
+
+++ TOTAS9737
+menu = TOT Public Company Limited
+title = TOT Public Company Limited
+host = 118.174.8.50
+
+++ InternetTHAS4618
+menu = Internet Thailand Company Ltd.
+title = Internet Thailand Company Ltd.
+host = 203.154.249.2
+
+++ PacnetAS4765
+menu = Pacific Internet Thailand Ltd
+title = Pacific Internet Thailand Ltd
+host = 203.121.130.39
+
+++ TrueAS7470
+menu = True Internet Co., Ltd.
+title = True Internet Co., Ltd.
+host = 203.144.225.242
+
+++ 3bbAS45758
+menu = Triple T Internet 3bb
+title = Triple T Internet 3bb
+host = 223.205.0.1
+
++ Philippines
+menu = Philippines
+title = Philippines
+
+++ PLDT9299
+menu = PLDT
+title = PLDT
+host = 112.203.64.1
+
+++ PLDT9299-2
+menu = PLDT 2
+title = PLDT 2
+host = 210.14.4.1
+
+++ PLDT9299-3
+menu = PLDT 3
+title = PLDT 3
+host = 49.144.112.1
+
+++ SkyAS23944
+menu = SKYBroadband
+title = SKYBroadband
+host = 114.108.211.1
+
+++ SmartAS10139
+menu = Smart Broadband
+title = Smart Broadband
+host = 121.1.3.81
+
++ Korea
+menu = South Korea
+title = South Korea
+
+++ KoreaTelecomAS4766
+menu = Korea Telecom
+title = Korea Telecom
+host = 14.32.56.254
+
+++ KoreaTelecomAS47662
+menu = Korea Telecom 2
+title = Korea Telecom 2
+host = 211.216.50.170
+
+++ SKBroadbandAS9318
+menu = SK Broadband
+title = SK Broadband
+host = 210.220.163.1
+
++ Vietnam
+menu = Vietnam
+title = Vietnam
+
+++ VNPTAS45899
+menu = VNPT
+title = VNPT
+host = 123.29.5.88
+
+++ VNPTAS45899-2
+menu = VNPT 2
+title = VNPT 2
+host = 123.31.27.130
+
+++ FPTAS18403
+menu = FPT Telecom
+title = FPT Telecom
+host = 210.245.0.131
+
+++ FPTAS18403-2
+menu = FPT Telecom 2
+title = FPT Telecom 2
+host = 1.52.217.1
+
+++ SaigonPostelAS7602
+menu = Saigon Postel
+title = Saigon Postel
+host = 180.93.33.17
+
+
++ Taiwan
+menu = Taiwan
+title = Taiwan
+
+++ FarEastToneAS9674
+menu = Far EastTone Telecommunication
+title = Far EastTone Telecommunication
+host = 61.20.46.195
+
+++ HinetAS3462-2
+menu = Hinet Chunghwa Telecom
+title = Hinet Chunghwa Telecom
+host = 168.95.192.15
+
+++ NewCenturyAS9919
+menu = New Century InfoComm
+title = New Century InfoComm
+host = 122.147.49.25
+
+++ TFNAS9924
+menu = Taiwan Fixed Network
+title = Taiwan Fixed Network
+host = 118.232.0.1
+
+++ TWGATEAS9505
+menu = Taiwan Internet Gateway
+title = Taiwan Internet Gateway
+host = 175.41.49.178
+
++ India
+menu = India
+title = India
+
+++ VodafoneAS38266
+menu = Vodafone India
+title = Vodafone India
+host = 42.104.124.254
+
+++ AirtelAS24560
+menu = Bharti Airtel Ltd
+title = Bharti Airtel Ltd
+host = 122.160.40.1
+
+++ BSNLAS9829
+menu = BSNL
+title = BSNL
+host = 218.248.51.246
+
+++ FlagAS15412
+menu = Flag Telecom Mumbai
+title = Flag Telecom Mumbai
+host = 62.216.135.130
+
+++ RelianceINAS18101
+menu = Reliance Communications Ltd
+title = Reliance Communications Ltd
+host = 202.138.97.97
+
+++ TATAINAS9238
+menu = TATA India
+title = TATA India
+host = 203.196.202.225
+
++ Mongolia
+menu = Mongolia
+title = Mongolia
+
+++ MongoliaTelAS9934
+menu = Mongolia Telecom
+title = Mongolia Telecom
+host = 202.179.20.1
+
+++ UnitelMNAS17882
+menu = Unitel
+title = Unitel
+host = 202.70.46.254
+
+++ STXCitinetAS38805
+menu = STXCitinet
+title = STXCitinet
+host = 124.158.64.1
