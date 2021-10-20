@@ -1,0 +1,21 @@
+*** Probes ***
+
++ FPing
+
+binary = /usr/bin/fping
+
++TraceroutePing
+
+binary = /usr/bin/traceroute
+binaryv6 = /usr/bin/traceroute6
+forks = 5
+offset = 50%
+step = 300
+timeout = 15
+# The following variables can be overridden in each target section
+desthost = www.example.com
+host = www-net-router.example.com
+maxttl = 15
+minttl = 11
+pings = 3
+wait = 3
